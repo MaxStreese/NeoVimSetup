@@ -10,8 +10,14 @@ Plug 'vim-airline/vim-airline-themes'
 
 Plug 'scrooloose/syntastic'
 
-Plug 'altercation/vim-colors-solarized'
+Plug 'flazz/vim-colorschemes'
 
 Plug 'vim-scripts/LanguageTool'
 
 call plug#end()
+
+colorscheme monokai
+
+let g:airline_theme='base16_monokai'
+
+imap jj <Esc>
