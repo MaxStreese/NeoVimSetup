@@ -12,12 +12,12 @@ Plug 'scrooloose/syntastic'
 
 Plug 'flazz/vim-colorschemes'
 
-Plug 'vim-scripts/LanguageTool'
-
 call plug#end()
 
 colorscheme monokai
 
 let g:airline_theme='base16_monokai'
+
+set spell spelllang=en_us
 
 imap jj <Esc>
